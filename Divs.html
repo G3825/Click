@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang en>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>Web dev 3 - Divisions</h1>
+
+        <div style="display: flex; flex-direction: row; border: solid">
+            <div style="background: lightpink">
+                <h2>Box 1</h2>
+            </div>
+            <div style="background: plum">
+                <h2>Box 2</h2>
+            </div>
+        </div>
+        <br />
+
+        <div style="display: flex; flex-direction: column; border: solid">
+            <div style="display: flex; flex-direction: row; border: dashed">
+                <div style="background: lightblue; width: 50%">
+                    <h2>Box 1</h2>
+                    <p>This is box 1</p>
+                </div>
+                <div style="background: lightgreen; width: 50%">
+                    <h2>Box 2</h2>
+                    <p>This is <u>not</u> box 3</p>
+                </div>
+            </div>
+            <br />
+            <div style="display: flex; flex-direction: row; border: dashed">
+                <div style="background: lightgreen; width: 50%">
+                    <h2>Box 3</h2>
+                    <p><b>This is a false box</b></p>
+                </div>
+                <div style="background: lightblue; width: 50%">
+                    <h2>Box 4</h2>
+                    <p><i>Ahhhhhhhhhhh</i></p>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <h2>Position</h2>
+        <div style="position: static; background: lightblue; z-index: 2">
+            <h2>This division was fixed in position</h2>
+        </div>
+        <div style="position: relative; background: lightgreen; z-index: 1; top: 0px">
+            <h2>This division is positioned relative to its normal position but right now, it is normal</h2>
+            <p>
+                Loren Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare viverra massa, ut
+                sollicitudin dui congue a. In hac habitasse platea dictumst. Curabitur ultrices, tortor sit amet
+                volutpat finibus, massa metus vehicula justo, eget bibendum leo nibh quis ex. Proin id maximus purus.
+                Cras vitae dapibus urna.
+            </p>
+        </div>
+        <h2>Float</h2>
+        <div style="float: right">
+            <h2>This division will appear on the right</h2>
+        </div>
+        <div style="float: left">
+            <h2>This division will appear on the left</h2>
+        </div>
+        <div style="float: right; width: 20%">
+            <h2>This division will appear on the right</h2>
+        </div>
+        <div style="float: right; width: 45%">
+            <h2>This division is beside the previous one on the right</h2>
+        </div>
+        <div style="clear: right; float: right; width: 20%">
+            <h2>This division is below the previous one on the right</h2>
+        </div>
+         <div style="float: right; width: 48%">
+                <h2>This division is left of before div</h2>
+            </div>
+    </body>
+</html>
